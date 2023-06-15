@@ -1,2 +1,0 @@
-# beaker-console
-
