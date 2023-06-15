@@ -5,4 +5,4 @@ use serde::Serialize;
 #[derive(Serialize, Deserialize, GetDataDocs, Default)]
 pub struct KeyConfig {}
 
-pub const SERVICE: &str = "beaker";
+pub const SERVICE: &str = "tesseract";
