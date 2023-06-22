@@ -94,16 +94,6 @@ impl Default for GlobalConfig {
                         rest_endpoint: "http://localhost:1317".into()
                     }
                 ),
-                (
-                    "devnet".into(),
-                    Network {
-                        chain_id: "quadrate_5120-1".into(),
-                        network_variant: NetworkVariant::Local,
-                        grpc_endpoint: "http://45.83.123.247:9090".into(),
-                        rpc_endpoint: "http://45.83.123.247:26657".into(),
-                        rest_endpoint: "http://45.83.123.247:1317".into()
-                    }
-                ),
             ]),
             accounts: Map::from([
                 ("validator".into(), Account::FromMnemonic { mnemonic: "bottom loan skill merry east cradle onion journey palm apology verb edit desert impose absurd oil bubble sweet glove shallow size build burst effort".into() }),
